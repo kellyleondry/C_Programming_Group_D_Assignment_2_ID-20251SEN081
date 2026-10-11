@@ -27,14 +27,10 @@ int main(){
 	
 	printf("Enter Disability status(1 FOR YES or 0 FOR NO) ");
 	scanf("%d", &Disability_status);
-	
-		
 		
 		if (Marks < 0 || Marks > 100 || Family_income < 0 || (Disability_status != 0 && Disability_status != 1)) {
-			
 			printf("Invalid input" );
 		}	
-		
 		
 		else if (Disability_status == 1){
 	
@@ -45,21 +41,14 @@ int main(){
 		else  if (Marks >= 80 && Family_income <= 300000){
 			
 			printf("========= RESULTS =========\n ");
-			printf("Qualified for scholarship ");
-			
+			printf("Qualified for scholarship ");	
 		}
-		
-		
 		else {
 			
 			printf("=========== RESULTS ===========\n ");
 			printf("Not Qualified for scholarship ");
 			
-		}	
-	
-	
-	
-	
+		}
 	
 return 0;	
 }
@@ -133,7 +122,7 @@ int main() {
     return 0;
 }
 
-# Explanation
+# Explanation of how program works
 The program starts with an initial balance of 50,000 RWF and displays a menu with four options: Check Balance, Deposit, Withdraw, and Exit. A while loop keeps the menu running until the user chooses Exit. A switch statement identifies the selected option and performs the corresponding action. If the user checks the balance, the current amount is displayed. For deposits and withdrawals, the program validates the amount before updating the balance. It also displays error messages for invalid amounts or insufficient funds. If the user selects Exit, the program terminates; otherwise, an invalid menu choice displays an error message and returns to the menu.
 
 
@@ -167,7 +156,7 @@ int main() {
     return 0;
 }
 
-# Explanation
+# Explanation of how program works
 
 The program asks the user to enter a PIN, which must be 1234. A counter records the number of incorrect attempts, while a while loop allows a maximum of three attempts. If the correct PIN is entered, the program displays "Access Granted" and stops immediately. If the PIN is incorrect, the counter increases, and the program displays the remaining attempts after the first or second mistake. If the third attempt is incorrect, the program displays "Account Locked" and terminates without displaying the "Wrong PIN" message.
 
@@ -216,7 +205,7 @@ int main() {
     return 0;
 }
 
-# Explanation
+# Explanation of how program works
 The program asks the user to enter a traffic light code and the hour of the day. It checks whether the code is between 1 and 3 and the hour is between 0 and 23. If either input is invalid, the program displays "Invalid input" and terminates. An if-else statement checks whether the time is between midnight and 4 AM, inclusive. During these hours, the program displays "Blinking Yellow" regardless of the traffic light code. At other times, a switch statement displays "Stop" for code 1, "Get Ready" for code 2, or "GO" for code 3.
 
 # QUESTION 5
@@ -312,7 +301,7 @@ int main() {
     return 0;
 }
 
-# Explanation
+# Explanation of how program works
 The program processes five students, each taking five courses, using nested for loops. The outer loop handles each student, while the inner loop collects marks for each course. Every mark must be between 0 and 100; invalid marks are rejected until a valid mark is entered. The program calculates the total and average marks and identifies the highest and lowest marks. It uses the average to assign a grade from A to F according to the given grading scale. A switch statement displays the interpretation of each grade, such as Outstanding, Very Good, Good, or Fail. Finally, the program displays each student's results before moving to the next student and terminates after processing all five students.
 
 
