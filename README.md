@@ -5,7 +5,11 @@
 
 # Codes and Explanation for Each Question
 
+
+
 # QUESTION 1
+
+[Screenshoot](SCREENSHOOTS/Q1.png)
 CODES
     
     
