@@ -136,7 +136,7 @@ The program starts with an initial balance of 50,000 RWF and displays a menu wit
 
 
 # QUESTION 3
-[Screenshoot_QUESTION_3]()
+[Screenshoot_QUESTION_3](SCREENSHOOTS/Q3.png)
 
 CODES
 
