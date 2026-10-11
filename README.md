@@ -9,7 +9,9 @@
 
 # QUESTION 1
 
-[Screenshoot](SCREENSHOOTS/Q1.png)
+[Screenshoot_QUESTION 1](SCREENSHOOTS/Q1.png)
+
+
 CODES
     
     
@@ -65,6 +67,9 @@ The program asks the user to enter the student's marks, family income, and disab
 
 
 # QUESTION 2
+
+[Screenshoot_QUESTION_2](SCREENSHOOTS/Q2.png)
+
 CODES
 
       #include <stdio.h>
@@ -131,6 +136,8 @@ The program starts with an initial balance of 50,000 RWF and displays a menu wit
 
 
 # QUESTION 3
+[Screenshoot_QUESTION_3]()
+
 CODES
 
     #include <stdio.h>
@@ -166,6 +173,8 @@ The program asks the user to enter a PIN, which must be 1234. A counter records 
 
 
 # QUESTION 4
+
+[Screenshoot_QUESTION_3]()
 CODES
 
       #include <stdio.h>
@@ -213,6 +222,7 @@ int main() {
 The program asks the user to enter a traffic light code and the hour of the day. It checks whether the code is between 1 and 3 and the hour is between 0 and 23. If either input is invalid, the program displays "Invalid input" and terminates. An if-else statement checks whether the time is between midnight and 4 AM, inclusive. During these hours, the program displays "Blinking Yellow" regardless of the traffic light code. At other times, a switch statement displays "Stop" for code 1, "Get Ready" for code 2, or "GO" for code 3.
 
 # QUESTION 5
+[Screenshoot_QUESTION_5]()
 
 CODES
 
