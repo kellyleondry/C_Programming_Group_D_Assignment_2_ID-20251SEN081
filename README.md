@@ -174,7 +174,7 @@ The program asks the user to enter a PIN, which must be 1234. A counter records 
 
 # QUESTION 4
 
-[Screenshoot_QUESTION_3]()
+[Screenshoot_QUESTION_4](SCREENSHOOTS/Q4.png)
 CODES
 
       #include <stdio.h>
