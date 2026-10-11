@@ -34,7 +34,8 @@ int main(){
 	printf("Enter Disability status(1 FOR YES or 0 FOR NO) ");
 	scanf("%d", &Disability_status);
 		
-		if (Marks < 0 || Marks > 100 || Family_income < 0 || (Disability_status != 0 && Disability_status != 1)) {
+		if (Marks < 0 || Marks > 100 || Family_income < 0 || (Disability_status != 0 && Disability_status != 1)) 
+		{
 			printf("Invalid input" );
 		}	
 		
@@ -175,6 +176,8 @@ The program asks the user to enter a PIN, which must be 1234. A counter records 
 # QUESTION 4
 
 [Screenshoot_QUESTION_4](SCREENSHOOTS/Q4.png)
+
+
 CODES
 
       #include <stdio.h>
